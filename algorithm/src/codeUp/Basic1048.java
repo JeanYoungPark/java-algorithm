@@ -9,7 +9,7 @@ public class Basic1048 {
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
 		b = sc.nextInt();
-		int c = (int)Math.pow(2, b);
+		int c = (int)Math.pow(2, b); //°ÅµìÁ¦°ö
 		System.out.println(a*c);
 	}
 
