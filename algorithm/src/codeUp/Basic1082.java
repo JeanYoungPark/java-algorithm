@@ -9,7 +9,7 @@ public class Basic1082 {
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt(16); //16진수로 입력받음
 		
-		for (int i = 0; i < 16; i++) {
+		for (int i = 1; i < 16; i++) {
 			System.out.printf("%X*%X=%X\n",a,i,a*i);
 		}	
 	}
