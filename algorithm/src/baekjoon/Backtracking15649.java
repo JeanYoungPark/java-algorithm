@@ -33,7 +33,7 @@ public class Backtracking15649 {
 	static void back(int cnt) {
 		if(cnt == m) {
 			for(int i = 0; i < m; i++)
-				sb.append(num[i]+" ");
+				sb.append(num[i]+" "); //num에 넣어두고 순서대로 출력
 			sb.append("\n");
 			return;
 		}
