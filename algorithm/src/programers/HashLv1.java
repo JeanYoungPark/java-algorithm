@@ -9,7 +9,7 @@ public class HashLv1 {
 
     }
 
-    public String solution(String[] participant, String[] completion){
+    static String solution(String[] participant, String[] completion){
         String ans = "";
         HashMap<String, Integer> map = new HashMap<>();
 
